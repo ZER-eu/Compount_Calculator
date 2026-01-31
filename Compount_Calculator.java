@@ -28,6 +28,7 @@ public class Project_Compount_Calculator
         amount = principal * Math.pow(1 + rate / timesCompounded, timesCompounded * years);
 
         System.out.printf("The amount after %d year/s is $%,.2f", years, amount);
-      
+
         scanner.close();
-    
+    }
+}
